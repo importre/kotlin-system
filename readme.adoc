@@ -6,6 +6,10 @@
 image::https://api.bintray.com/packages/importre/maven/kotlin-system/images/download.svg[link="https://bintray.com/importre/maven/kotlin-system/_latestVersion"]
 
 ```gradle
+repositories {
+    jcenter()
+}
+
 dependencies {
     compile "com.importre:kotlin-system:$system_version"
 }
