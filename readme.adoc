@@ -1,0 +1,38 @@
+= kotlin-system
+:toc:
+
+== Install
+
+image::https://api.bintray.com/packages/importre/maven/kotlin-system/images/download.svg[link="https://bintray.com/importre/maven/kotlin-system/_latestVersion"]
+
+```gradle
+dependencies {
+    compile "com.importre:kotlin-system:$system_version"
+}
+```
+
+
+== Examples
+
+=== Kotlin
+
+```kotlin
+println(isWindows)
+println(isMacOS)
+println(isLinux)
+println(isOther)
+```
+
+=== Java
+
+```java
+System.out.println(SystemUtils.isWindows)
+System.out.println(SystemUtils.isMacOS)
+System.out.println(SystemUtils.isLinux)
+System.out.println(SystemUtils.isOther)
+```
+
+
+== License
+
+MIT © Jaewe Heo
